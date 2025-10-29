@@ -1,0 +1,544 @@
+@charset "utf-8";
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+body {
+    font-size: 100%;
+    font-family: Oxygen, Arial, sans-serif;
+    background-color: #400060
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    font-family: Oxygen, Arial, sans-serif;
+    line-height: 1.25
+}
+
+h1 {
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive
+}
+
+h2 {
+    font-size: 92%;
+    font-family: Oxygen, Arial, sans-serif;
+    font-variant: small-caps;
+    float: left;
+    padding: 5px 0 4px 5px
+}
+
+.img-resp {
+    max-width: 100%
+}
+
+p {
+    margin: 20px 0
+}
+
+#container {
+    width: 80%;
+    min-width: 500px;
+    max-width: 1040px;
+    margin: auto;
+    background-color: #eee
+}
+
+header {
+    height: 178px;
+    width: 100%;
+    background-image: url(../images/e-head-back.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin: 0
+}
+
+#sitename {
+    font-family: 'Euphoria Script', cursive;
+    color: #eee;
+    font-size: 540%;
+    padding: 40px 0 0 60px;
+    letter-spacing: -.03em
+}
+
+#tagline {
+    position: relative;
+    max-width: 200px;
+    top: -16px;
+    left: 280px;
+    letter-spacing: .03em;
+    color: #eee;
+}
+.subhead {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 180%;
+}
+footer {
+    height: 178px;
+    width: 100%;
+    background-image: url(../images/footer-image.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin: 0;
+    color: #eee;
+    font-size: 70%
+}
+
+#footer {
+    clear: both
+}
+
+#copyright {
+    padding: 150px 0 20px 30px
+}
+
+a.active,
+a:hover,
+a:link,
+a:visited {
+    padding: 0;
+    text-decoration: underline;
+}
+
+a:active,
+a:hover {
+    padding: 0;
+    text-decoration: underline;
+    background-color: #dadada
+}
+
+nav {
+    height: 80px;
+    background-color: #3c3c3a;    
+}
+
+nav ul li {
+    float: left;
+    margin: 30px 0 0 20px;
+    color: #eee;
+ }
+
+li>a:active,
+li>a:hover,
+li>a:link,
+li>a:visited {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+li>a:link,
+li>a:visited {
+    background-color: none
+}
+
+li>a:active,
+li>a:hover {
+    background: #000
+}
+
+#content {
+    min-width: 320px;
+    padding: 20px 40px;
+    font-size: 90%;
+    line-height: 140%
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+.featured {
+    background-color: #dadada;
+    margin: 20px 0;
+    padding: 30px 20px
+}
+
+.clearer {
+    clear: both;
+    width: 240px
+}
+
+.spcr {
+    line-height: 20px;
+    height: 20px
+}
+
+.sample {
+    position: relative;
+    float: left;
+    margin-left: 16px;
+    margin-top:16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 290px;
+    cursor: pointer
+}
+
+.flyout2 {
+    display: table;
+    z-index: 1000;
+    clear: both;
+    padding: 12px;
+    min-height: 100px;
+    cursor: pointer;
+    position: absolute;
+    top: 24px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 0;
+    width: 259px;
+    height: 216px;
+    float: left;
+    display:none;
+    height: 220px;
+}
+
+.descriptions {
+    text-align: left;
+    float:left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+ @media (hover: hover) {
+   .flyout2:hover {
+     visibility:visible;
+  }
+  .mobile-text {
+      display:none;
+   }
+}
+
+@media (hover: none) {
+  .flyout2 {
+    visibility: hidden;
+  } 
+  .mobile-text {
+      display:block;
+      background-color: #dadada;
+      color: #000;
+      text-align:left;
+      padding-left:6px;
+      margin-bottom:20px;
+   }
+}
+
+html.no-touch div.sample div.flyout,
+html.no-touch div.sample div.flyout2 {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    padding-top:2px;
+}
+
+.hidden {
+    display: none
+}
+
+#emailme1 {
+    width: 300px;
+    float: left
+}
+
+#emailme2 {
+    font-family: 'Euphoria Script', cursive;
+    float: left;
+    font-size: 160%;
+    padding-top: 60px
+}
+
+#mobile {
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    padding: 30px 0;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 6px 13px -2px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 7px 6px 13px -2px rgba(0, 0, 0, .35);
+    box-shadow: 7px 6px 13px -2px rgba(0, 0, 0, .35);
+    left: 50%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -80px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    line-height: 140%;
+    text-align: center;
+    background-color: #fff;
+    visibility: hidden;
+    z-index: 1001
+}
+
+input[type=button] {
+    color: #fff;
+    margin-top: 20px;
+    background-image: url(../images/btn-back.png);
+    background-repeat: repeat-x;
+    border: 1px solid #41095d;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 36px;
+    cursor: pointer
+}
+
+
+@media all and (max-width:1600px) {
+    .featured {
+        margin: auto;
+        text-align: center
+    }
+    #container {
+        width: 80%
+    }
+    .flyout2 {
+        left: 4px
+    }
+    .flex-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+    }
+    #content {
+        width: 92%;
+        margin: auto;
+    }
+    .spcr {
+        line-height: 0;
+        height: 0
+    }
+     .sample {
+         margin-left: 30px;
+         margin-right: 30px;
+     }
+}
+
+
+@media all and (max-width:768px) {
+    #container {
+        width: 98%;
+        margin-left: 5%;
+        min-width: 400px;
+        margin: auto;
+        background-color: #dadada;
+    }
+    #content {
+        margin-left: 2%
+    }
+    .featured {
+        width: 96%;
+        background:transparent;
+        padding-left: 0;
+    }
+    .sample {
+        margin-left: 0
+    }
+    p {
+     margin-right: 30px;
+    }
+}
+
+@media screen and (max-device-width:480px) {
+    #container {
+        width: 98%;
+        min-width: 300px;
+        margin: auto;
+        background-color: #dadada;
+    }
+    #sitename {
+        font-family: 'Euphoria Script', cursive;
+        color: #eee;
+        font-size: 450%;
+        padding: 30px 0 0 24px;
+        letter-spacing: -.03em;
+        width: 300px
+    }
+    #tagline {
+        position: relative;
+        top: -12px;
+        left: 200px;
+        letter-spacing: .03em;
+        color: #dadada;
+        width: 130px
+    }
+    #content {
+        width: 98%;
+        min-width: 330px;
+        padding: 10px 6px;
+        font-size: 90%;
+        line-height: 140%
+    }
+    h1 {
+        width: 300px;
+        margin-left: 10px
+    }
+    p {
+        width: 320px;/*GMC*/
+        margin-left: 10px
+    }
+    .featured {
+        margin: 0;
+        padding: 0;
+        width: 95%;
+        float: left
+    }
+    #copyright {
+        padding: 120px 0 4px 10px;
+        max-width: 280px
+    }
+    .flex-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+    }
+    footer {
+        margin-top: 20px
+    }
+}
+
+@media screen and (max-device-width:350px) {
+    .featured {
+        width: 90%
+    }
+}
