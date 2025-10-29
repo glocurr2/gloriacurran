@@ -1,0 +1,2 @@
+# gloriacurran
+portfolio website
